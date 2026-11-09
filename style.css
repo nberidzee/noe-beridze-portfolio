@@ -148,3 +148,6 @@ html[lang=en] .hero h1{font-size:clamp(52px,5.9vw,77px);line-height:1.12;letter-
   .resume-sheet>section>h2{margin-bottom:9px}
   body{background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+
+/* Prevent legacy independently analyzed Gulf sample from appearing in cached page variations. */
+.work-sample { display:none !important; }
