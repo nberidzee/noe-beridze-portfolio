@@ -1,34 +1,35 @@
 const RESUME = {
   "name": "Noe Beridze",
-  "title": "Product Owner",
-  "subtitle": "Product development and project management",
+  "title": "Product Owner | B2B SaaS",
+  "subtitle": "Product definition, workflow design and cross-functional collaboration",
   "location": "Tbilisi, Georgia",
   "email": "noe.beridze@gmail.com",
   "phone": "+995 577 01 02 22",
   "phoneHref": "+995577010222",
   "linkedin": "https://www.linkedin.com/in/noe-beridze/",
   "portfolio": "https://nberidzee.github.io/noe-beridze-portfolio/",
-  "summary": "LegalTech co-founder with hands-on B2B SaaS product work and 7+ years of team and process management. I translate business needs into development scope, user stories and acceptance criteria, then review the result with developers. My contribution is making workflows, ownership and priorities clear so the team can build and validate a coherent product.",
+  "summary": "Product Owner and LegalTech co-founder with hands-on experience shaping B2B SaaS products, clarifying business requirements and working with technical teams on practical solutions. I also bring 7+ years of team, process and KPI management from Evolution Georgia.",
   "productExperience": [
     {
       "company": "LegalStepy",
-      "role": "Co-Founder and COO",
-      "dates": "2025 - Present",
-      "context": "B2B contract lifecycle management platform",
+      "role": "Product Owner & Co-Founder",
+      "dates": "2025 – Present",
+      "context": "B2B SaaS platform for contract lifecycle management",
       "bullets": [
-        "Define the full contract lifecycle, from drafting and creation through collaboration, negotiation, approvals and signing to renewals and obligations; make roles and hand-offs explicit so the developer can build a connected workflow.",
-        "Turn business needs into prioritised requirements, user stories and acceptance criteria, including exceptions; give the team a shared basis for implementation and acceptance.",
-        "Prioritise one complete MVP journey and review demos and feedback to identify gaps in versions, permissions and transitions before expanding the product scope."
+        "Define product vision and development priorities for a contract lifecycle management platform.",
+        "Design product features, workflows and user journeys based on business needs.",
+        "Work with developers to refine requirements and guide product development.",
+        "Use customer feedback to identify gaps and improve product functionality."
       ]
     },
     {
       "company": "Ventures HQ",
-      "role": "Independent product project",
+      "role": "Product Initiator",
       "dates": "2026",
       "context": "Internal platform for startup operations",
       "bullets": [
-        "Initiated an internal platform for tasks, projects, bug tracking, CRM and a knowledge base; define the modules and review delivery through AI-assisted development, giving the team one workspace for work and related information.",
-        "Define priority-task views and explicit Edit / Save behaviour; test workspace access and consistency between Board and List so issues have clear expected behaviour and daily work is easier to follow."
+        "Initiated a unified workspace covering tasks, projects, CRM and shared knowledge.",
+        "Define module behaviour, daily workflows and access rules, and test usability across views."
       ]
     }
   ],
@@ -36,54 +37,52 @@ const RESUME = {
     {
       "company": "Evolution Georgia",
       "role": "Shufflers Team Manager",
-      "dates": "2019 - Present",
-      "context": "Live casino operations and people management",
+      "dates": "2019 – Present",
+      "context": "24/7 iGaming operations and people leadership",
       "bullets": [
-        "Manage daily workflows, team performance and recurring operational issues; coordinate corrective actions with relevant teams to keep responsibilities and follow-up clear in a time-sensitive iGaming operation.",
-        "Lead the Golden Mentors project involving 100+ mentors; coordinate onboarding, documentation and quality checks to support consistent guidance for newcomers."
+        "Manage team operations, shift coverage, attendance and performance in a 24/7 environment.",
+        "Monitor KPIs, address recurring issues and coordinate improvements across teams.",
+        "Lead the Shuffler Mentors project, supporting mentor coordination, onboarding and quality standards."
       ]
     }
   ],
   "skills": [
     {
-      "name": "Product management",
+      "name": "Product",
       "items": [
-        "Customer discovery",
-        "Requirements analysis",
-        "Backlog prioritisation",
-        "Roadmap and MVP scope",
-        "User stories and acceptance criteria",
-        "UX feedback",
-        "UAT and validation",
-        "Product measurement planning"
+        "Product discovery",
+        "Requirements definition",
+        "Workflow design",
+        "Roadmap and prioritisation",
+        "User journeys",
+        "Acceptance criteria",
+        "UAT and product validation"
       ]
     },
     {
-      "name": "Project management",
+      "name": "Delivery & leadership",
       "items": [
-        "Scope and delivery planning",
         "Stakeholder coordination",
-        "Dependency tracking",
-        "Risk and issue follow-up",
-        "Process mapping",
-        "Cross-functional communication",
-        "Agile and Scrum collaboration",
-        "KPI reporting"
+        "Process improvement",
+        "Cross-functional collaboration",
+        "Operational planning",
+        "KPI reporting",
+        "Team leadership"
       ]
     },
     {
-      "name": "Tools and collaboration",
+      "name": "Tools",
       "items": [
         "Jira",
         "Confluence",
         "Figma",
-        "Slack",
+        "Microsoft 365",
         "Google Workspace",
-        "Microsoft 365"
+        "Slack"
       ]
     }
   ],
-  "technicalContext": "API and integration concepts, role-based access, workflow states and delivery dependencies.",
+  "technicalContext": "Role-based access, approval workflows, document versions, API and integration concepts.",
   "education": [
     {
       "degree": "MBA",
