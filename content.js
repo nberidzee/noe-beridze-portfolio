@@ -5,26 +5,26 @@ const CONTENT = {
     "Skills",
     "Contact"
   ],
-  "role": "Product Owner · Product development",
+  "role": "PRODUCT OWNER / DIGITAL PRODUCT DEVELOPMENT",
   "name": "Noe",
   "surname": "Beridze",
-  "intro": "Co-Founder & COO at LegalStepy. I connect business requirements with development: define the workflow, prioritise the next release and check whether the result works for the user.",
-  "introSecond": "I combine B2B SaaS product work with 7+ years of team and operations management at Evolution Georgia.",
+  "intro": "I'm Noe Beridze, a Product Owner and co-founder of LegalStepy. I turn business needs into practical features, clear workflows and development priorities.",
+  "introSecond": "My background combines hands-on B2B SaaS product work with 7+ years of team and operations leadership at Evolution Georgia.",
   "workCTA": "Explore my projects",
   "cv": "View CV",
   "photoAlt": "Noe Beridze",
   "facts": [
     [
-      "LegalStepy",
-      "Co-Founder & COO"
+      "Product work",
+      "B2B SaaS · Internal platforms"
     ],
     [
-      "Evolution Georgia",
-      "Team & project leadership"
+      "Leadership",
+      "7+ years in operations"
     ],
     [
-      "Tbilisi, Georgia",
-      "Georgian · English"
+      "Location",
+      "Tbilisi, Georgia"
     ]
   ],
   "workLabel": "01 / SELECTED PROJECTS",
@@ -40,14 +40,14 @@ const CONTENT = {
       "brand": "LegalStepy",
       "kind": "B2B SaaS / LegalTech",
       "year": "2025 — Present",
-      "role": "Co-Founder & COO",
+      "role": "Product Owner & Co-Founder",
       "status": "MVP development",
-      "title": "Managing the full contract lifecycle",
-      "summary": "A B2B contract lifecycle management platform: from drafting and creating contracts through collaboration, negotiation, approvals and signing to tracking renewals and obligations in one workspace.",
+      "title": "Making complex contract processes easier to manage",
+      "summary": "A B2B SaaS platform bringing drafting, reviews, approvals, signing and ongoing obligations into a connected contract workflow.",
       "tags": [
-        "Workflow definition",
-        "Requirements",
-        "Prioritisation"
+        "Product scope",
+        "Workflow architecture",
+        "Requirements"
       ],
       "url": "https://legalstepy.com",
       "context": "LegalStepy is a B2B contract lifecycle management platform designed to bring the full contract process into one workspace. Its scope spans drafting and creation, internal and counterparty collaboration, negotiation, approvals, signing, and post-signature renewals and obligations.",
@@ -117,7 +117,7 @@ const CONTENT = {
           ]
         ]
       },
-      "personalValue": "I turn business needs into a clear development scope and testable requirements, so the team knows what to build, who owns each step and how to check the result.",
+      "personalValue": "I shape the product scope, define role-based workflows and work with development to turn operational needs into testable features.",
       "contributions": [
         [
           "I map the contract journey and define who acts at each stage.",
@@ -142,8 +142,8 @@ const CONTENT = {
       "year": "2026",
       "role": "Project initiator · Product definition",
       "status": "Internal working tool",
-      "title": "Tasks, bugs and daily operations in one workspace",
-      "summary": "An internal platform for tasks and projects, bug tracking, CRM and a knowledge base. My focus is keeping work easy to find, ownership clear and each workspace consistent.",
+      "title": "A clearer home for everyday team operations",
+      "summary": "An internal workspace for tasks, projects, CRM and shared knowledge, with emphasis on clarity, access rules and daily usability.",
       "tags": [
         "Product scope",
         "UX decisions",
@@ -203,7 +203,7 @@ const CONTENT = {
           "https://ventures-hq-two.vercel.app/"
         ]
       ],
-      "personalValue": "I initiated the platform and define how its modules work together. I prioritise daily work views and test editing and access rules, so the team can follow its tasks and changes in one workspace.",
+      "personalValue": "I initiated the product, defined its modules and user journeys, and test how tasks and permissions work across views and workspaces.",
       "contributions": [
         [
           "I initiated the platform and define the tasks, bugs, CRM and knowledge-base modules.",
@@ -236,25 +236,25 @@ const CONTENT = {
     "Knowledge base"
   ],
   "workspaceNote": "Separate workspaces · Clear ownership · Appropriate access",
-  "sampleLabel": "WORK SAMPLE / GULF CLUB",
+  "sampleLabel": "ADDITIONAL WORK / INDEPENDENT ANALYSIS",
   "sampleTitle": "Payment status and exception handling",
   "sampleText": "Turning a delayed response into a clear requirement: priority, acceptance criteria and a measurement plan.",
   "sampleLink": "Read the analysis",
-  "sampleNote": "Independent exercise using public sources",
+  "sampleNote": "An independent exercise — not a client engagement",
   "experienceLabel": "02 / EXPERIENCE",
   "experienceTitle": "Teams, processes and responsibility",
   "jobs": [
     [
       "2025 — Present",
       "LegalStepy",
-      "Co-Founder & COO",
-      "I translate business needs into development requirements and priorities, then review product behaviour with the developer so the team has a clear scope and acceptance criteria."
+      "Product Owner & Co-Founder",
+      "Define product functionality and priorities for contract management, design workflows and collaborate with development on requirements and usability."
     ],
     [
       "2019 — Present",
       "Evolution Georgia",
       "Shufflers Team Manager",
-      "I manage teams and performance routines and lead Golden Mentors, a programme involving 100+ mentors, with shared onboarding guidance and quality checks."
+      "Lead shift operations and team performance, monitor KPIs and coordinate the Shuffler Mentors programme and onboarding quality."
     ]
   ],
   "education": "Education & professional development",
@@ -282,7 +282,7 @@ const CONTENT = {
   ],
   "contactLabel": "05 / CONTACT",
   "contactTitle": "Get in touch.",
-  "contactText": "I am interested in Product Owner opportunities where business analysis, practical product decisions and close collaboration with a technical team matter.",
+  "contactText": "Open to Product Owner and digital product development opportunities where structured thinking and close collaboration with teams make a difference.",
   "email": "EMAIL",
   "phone": "PHONE",
   "back": "Back to home",
