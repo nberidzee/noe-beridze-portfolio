@@ -236,11 +236,6 @@ const CONTENT = {
     "Knowledge base"
   ],
   "workspaceNote": "Separate workspaces · Clear ownership · Appropriate access",
-  "sampleLabel": "ADDITIONAL WORK / INDEPENDENT ANALYSIS",
-  "sampleTitle": "Payment status and exception handling",
-  "sampleText": "Turning a delayed response into a clear requirement: priority, acceptance criteria and a measurement plan.",
-  "sampleLink": "Read the analysis",
-  "sampleNote": "An independent exercise — not a client engagement",
   "experienceLabel": "02 / EXPERIENCE",
   "experienceTitle": "Teams, processes and responsibility",
   "jobs": [
@@ -302,101 +297,6 @@ const CONTENT = {
   "tradeoffLabel": "The trade-off",
   "nextLabel": "Next step",
   "otherCase": "Next project",
-  "gulf": {
-    "brand": "Gulf Club",
-    "kind": "Independent product analysis",
-    "title": "When a payment response is delayed",
-    "summary": "One scenario that calls for user experience, business rules and technical dependencies to be considered together.",
-    "scope": "This work sample uses Gulf’s public description. It is not commissioned work for the company or a report of a verified app defect.",
-    "headings": [
-      "Starting context",
-      "What to establish first",
-      "What I would prioritise",
-      "A requirement example",
-      "How I would evaluate the result"
-    ],
-    "context": "Gulf Club’s official page describes QR payments at Gulf+ stations: the user selects fuel and a payment method, then continues after a successful operation. I chose a scenario where the final payment response does not reach the user promptly.",
-    "hypothesis": "The user may be unsure whether the operation completed and try again. This is a hypothesis to validate. I would first request data on statuses, repeated attempts and support contacts.",
-    "questions": [
-      "How often does an operation remain in an uncertain state?",
-      "Can the system return the final status of the same operation?",
-      "How is payment confirmed, and when is the dispenser ready?"
-    ],
-    "decision": "If the data confirms the risk, I would start by making the same operation’s status clear and recoverable after a connection loss. Initiating another payment should be considered only once the final state is established.",
-    "dependency": "Clarify operation identifiers, status lookup, duplicate protection and support traceability with the technical team. The capabilities of the existing API are unknown in this exercise.",
-    "story": "As a Gulf Club user, I want to know my operation’s status after a delayed response so I can choose the right next action.",
-    "criteria": [
-      [
-        "Delayed response",
-        "Show a pending state and check that same operation. A timeout is not an automatic decline."
-      ],
-      [
-        "Confirmed success",
-        "Show payment confirmation. Check dispenser readiness separately."
-      ],
-      [
-        "Confirmed decline",
-        "Show the final state and the agreed option for retry."
-      ],
-      [
-        "Lost connection",
-        "First recover the existing operation’s status. Repeated taps do not initiate a new charge."
-      ]
-    ],
-    "metrics": [
-      [
-        "Completion",
-        "Unique successfully completed operations / unique operations initiated."
-      ],
-      [
-        "Uncertain status",
-        "Share of operations without a final response within an agreed window."
-      ],
-      [
-        "Guardrails",
-        "Repeated attempts, duplicate charges and support contacts."
-      ]
-    ],
-    "release": "Establish the baseline and validate events first. Then test the scenarios, release to a limited group and evaluate by payment method, station and OS. Set targets after reviewing the data.",
-    "sourceTitle": "Public sources · Reviewed 23 Oct 2026",
-    "sources": [
-      [
-        "Gulf Club — QR payments",
-        "https://gulf.ge/ge/app"
-      ],
-      [
-        "Official application page",
-        "https://app.gulf.ge/"
-      ],
-      [
-        "Gulf Business",
-        "https://b.gulf.ge/"
-      ]
-    ],
-    "backlogTitle": "A prioritised backlog",
-    "backlogIntro": "Proposed order based on user risk and technical dependencies, to confirm during discovery.",
-    "backlog": [
-      {
-        "priority": "P1",
-        "title": "Recover the existing operation",
-        "value": "Let a returning user find the same payment instead of starting another while its outcome is unknown.",
-        "dependency": "Stable operation ID, authoritative status lookup and duplicate protection agreed with the payment team."
-      },
-      {
-        "priority": "P1",
-        "title": "Show the status and next action",
-        "value": "Explain pending, confirmed and declined states, with an operation reference for support. Keep payment confirmation separate from dispenser readiness.",
-        "dependency": "Agreed status mapping, station readiness signal and support process. Builds on status recovery."
-      },
-      {
-        "priority": "P2",
-        "title": "Create a support view for unresolved operations",
-        "value": "Help support locate prolonged pending operations and investigate recurring cases.",
-        "dependency": "Validated event data, access permissions and a support owner. Add after the initial recovery flow is validated."
-      }
-    ],
-    "backlogBoundary": "Initial release: both P1 items together, supported by baseline measurement and exception testing. The P2 support view follows once the core flow is validated."
-  },
   "download": "Download PDF",
   "educationLabel": "04 / EDUCATION"
 };
